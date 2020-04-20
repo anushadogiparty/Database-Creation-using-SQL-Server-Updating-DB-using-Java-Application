@@ -1,6 +1,6 @@
-# MYSQL - Project - Part 1 - PaperReviews_Database
+# MYSQL - Project - Part 1 - Paper_Reviews Database
 
-Implementation of Paper Reviewers Database using MYSQL Server.
+Implementation of Paper Reviews Database using MYSQL Server.
 
 # Prerequisites
 
@@ -17,13 +17,13 @@ LOCK TABLES, EXECUTE, CREATE VIEW
 
 Part 1:
 
-• The first part will include setting up your development environment by installing MySQL
-• Writing SQL scripts to create the tables (entities), constraints etc modeled in the ER Diagram. 
-• Populating the Database using the SQL Queries.
+1. The first part will include setting up your development environment by installing MySQL
+2. Writing SQL scripts to create the tables (entities), constraints etc modeled in the ER Diagram. 
+3. Populating the Database using the SQL Queries.
 
 Part 2:
 
-• The second part will include creating a simple Java application to query and update your database.
+	The second part will include creating a simple Java application to query and update your database.
 
 ## Installation
 
@@ -33,19 +33,33 @@ Part 2:
 Then run
 
 ```A1
-mysql < PaperReviews.sql
+To view list of Databases on the sql server ---> SHOW DATABASES; 
+Switch to a database    ---> use [db name];
+To see all the tables in the DB   --->  SHOW TABLES;
 ```
-## Testing the installation
-After installing, you can run one of the following
+
+#### Paper_Reviews Database tables must be executed in the below mentioned sequence of order.
 
 ```A2
-mysql -t < PaperReviews.sql
+1. Author
+2. Paper
+3. Reviewer
+4. Paper_Reviewer
+5. Review
+6. Topic
 ```
-### Repository Paper Reviewers Database includes:
+#### Run the below commands in the sequence of order mentioned above.
+ 
+```A3
+To see database's Attribute formats  --->  describe [table name];
+Show all data in a table   ---> SELECT * FROM [table name];
+```
+
+### Repository Review_Database includes:
 
 • SQL script of the Database created.
 • Database Schema for “Paper Reviews” Database - ER diagram
 
-                         #### Credits
-			Anusha Dogiparthy
+### Credits
+Anusha Dogiparthy
 
