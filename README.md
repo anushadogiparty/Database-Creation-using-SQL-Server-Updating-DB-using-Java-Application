@@ -13,7 +13,7 @@ INDEX, ALTER, SHOW DATABASES,
 CREATE TEMPORARY TABLES, 
 LOCK TABLES, EXECUTE, CREATE VIEW
 ```
-## Project: This Project includes implementation of the “paper reviewers” database. This project will be split into two parts. 
+#### Project: This Project includes implementation of the “paper reviewers” database. This project will be split into two parts. 
 
 Part 1:
 
@@ -30,15 +30,14 @@ Part 2:
 1. Download the repository
 2. Change directory to the repository
 
-Then run
+Then run the following steps.
 
 ```A1
-To view list of Databases on the sql server ---> SHOW DATABASES; 
-Switch to a database    ---> use [db name];
-To see all the tables in the DB   --->  SHOW TABLES;
+1. To Create Database    ---> CREATE DATABASE Paper_Reviews; 
+2. To view list of Databases on the sql server ---> SHOW DATABASES; 
+3. Switch to a database    ---> use Paper_Reviews;
 ```
-
-#### Paper_Reviews Database tables must be executed in the below mentioned sequence of order.
+#### Paper_Reviews Database tables must be created in the below mentioned sequence of order.
 
 ```A2
 1. Author
@@ -48,17 +47,26 @@ To see all the tables in the DB   --->  SHOW TABLES;
 5. Review
 6. Topic
 ```
-#### Run the below commands in the sequence of order mentioned above.
+ Then run
  
 ```A3
-To see database's Attribute formats  --->  describe [table name];
-Show all data in a table   ---> SELECT * FROM [table name];
+4. Create tables as per .sql file using the below command
+CREATE TABLE table_name (
+    column1_name data_type constraints,
+    column2_name data_type constraints,
+    ....
+);
+5. To see all the tables in the DB   --->  SHOW TABLES;
+6. To see database's Attribute formats  --->  describe [table name];
+7. Populate data into tables as per .sql using the below command
+INSERT INTO table_name (column1,column2,...) VALUES (value1,value2,...);
+8. Show all the data in a table   ---> SELECT * FROM [table name];
+9. quit;
 ```
-
 ### Repository Review_Database includes:
 
-• SQL script of the Database created.
-• Database Schema for “Paper Reviews” Database - ER diagram
+1. SQL script of the Database created.
+2. Database Schema for “Paper Reviews” Database - ER diagram
 
 ### Credits
 Anusha Dogiparthy
