@@ -1,13 +1,13 @@
-# MYSQL - Project - Part 2 - Paper_Reviews Database
+### MYSQL - Project - Part 2 - Paper_Reviews Database
 
 Implementation of Paper Reviews Database using JAVA Application.
 
-## Prerequisites:
+#### Prerequisites:
 ```bash
 JAVA, JDBC Driver and MYSQL.
 ```
 
-## Project: This Project includes implementation of the “paper reviewers” database. The second part will include creating a simple Java application to query and update your database.
+##### Project: This Project includes the second part of implementation of the “paper reviewers” database which includes creating a simple Java application to query and update your database.
 
 ```bash
 STEP 1: 
@@ -34,12 +34,12 @@ STEP 6:
 Close a connection using the Connection.close() method to close a Connection object, which represents a closing physical connection with the database.
 ```
 
-### Repository Review_Database includes:
+#### Repository Review_Database includes:
 
 • SQL script of the Database created.
 • Database Schema for “Paper Reviews” Database - ER diagram
 • Source code of the JAVA Application Created
 
-### Credits
+#### Credits
 Anusha Dogiparthy
 
